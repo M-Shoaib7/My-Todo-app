@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Todo List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h1>Todo List <i class="fas fa-list"></i></h1>
+            <div class="input-section">
+                <input type="text" id="todo-input" placeholder="Add your task...">
+                <button id="add-button">Add</button>
+            </div>
+            <ul id="todo-list">
+                <!-- Todo items will be added here dynamically -->
+            </ul>
+            <div class="todo-stats">
+                <span id="total-tasks">Total tasks: 0</span>
+                <button id="clear-all">Clear All</button>
+            </div>
+            <div class="footer"><p>Made with ❤️ by Muhammad Shoaib</p></div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html> 
